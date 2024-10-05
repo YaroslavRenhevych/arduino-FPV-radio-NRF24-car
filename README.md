@@ -170,7 +170,7 @@ Specifications:
 
 - Weight: 4.4 g
 
-- Frequency, channel, and band table: see in folder pictures/
+- Frequency, channel, and band table: see in folder pictures/ (https://github.com/YaroslavRenhevych/arduino-FPV-radio-NRF24-car/blob/main/pictures/Radiolink_800TVL_Band-Frequency_table.png)
 
 - Camera configuration:
 
