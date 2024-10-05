@@ -99,16 +99,16 @@ Specifications:
   
 The module has a standard pinout, allowing it to be connected to Arduino boards that have an NRF24L01P+ module socket or simply to the SPI interface of an Arduino board.
 
-Pin	|        | Description     |Direction
------------------------------------------
-Pin1|	GND	   | Ground          |
-Pin2|	VCC	   | Power, 2.7~3.6V |
-Pin3|	CE	   | Mode, RX/TX     |input
-Pin4|	CSN	   | SPI chip select |input
-Pin5|	SCK    | SPI clock       |input
-Pin6|	MOSI   | SPI input       |input
-Pin7|	MISO   | SPI output      |output
-Pin8|	IROAM  | Interrupt output|output
+| Pin	 |        | Description     |Direction|
+|------|--------|-----------------|---------|
+| Pin1 |	GND	  | Ground          |         |
+| Pin2 |	VCC	  | Power, 2.7~3.6V |         |
+| Pin3 |	CE    | Mode, RX/TX     |input    |
+| Pin4 |	CSN	  | SPI chip select |input    |
+| Pin5 |	SCK   | SPI clock       |input    |
+| Pin6 |	MOSI  | SPI input       |input    |
+| Pin7 |	MISO  | SPI output      |output   |
+| Pin8 |	IROAM | Interrupt output|output   |
 
 Datasheet: https://arduino.ua/docs/nRF24L01P_Product_Specification_1_0.pdf
 
