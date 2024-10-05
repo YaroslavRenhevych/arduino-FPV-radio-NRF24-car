@@ -20,6 +20,8 @@ Communication technology: radio
 - NRF24L01
 - Adapter for NRF24L01
 - DC/DC converter XL4015 5A
+- FPV camera Radiolink 800TVL
+- Fan 40x40mm 5V
 - Motor driver L298N
 - 2 x batteries 18650
 - 4 x motors
@@ -108,3 +110,68 @@ Datasheet: https://arduino.ua/docs/nRF24L01P_Product_Specification_1_0.pdf
 Library: https://github.com/gcopeland/RF24
 
 -----
+# Description of NRF24L01 Adapter
+The connection module allows convenient use of NRF24L01 receivers with 5V systems, such as Arduino.
+
+It includes a voltage regulator that converts 5V input to 3.3V output and also contains decoupling capacitors for reliable operation. Dimensions: 18x26x10 mm.
+
+---
+
+# Description of FPV camera with analog transmitter Radiolink 800TVL
+The ultra-miniature high-definition video camera with a 5.8 GHz transmitter is an ideal solution for building miniature FPV drones. The camera stands out from similar FPV video cameras with its high image quality, increased output power, ultra-miniature design, and simple one-button control for settings.
+
+The camera connects to the power source via a single PH1.25 connector. The power voltage value is displayed in the telemetry.
+
+For convenient installation on the drone, the camera features an image flip function, allowing a 180-degree rotation.
+
+Features:
+
+800TVL micro camera with a 5.8 GHz transmitter and on-screen menu
+Super mini size and lightweight
+Image flip function support
+2 LEDs, 1 button
+Specifications:
+
+Telemetry content: image transmission, working frequency, power supply voltage
+Transmission frequency: 5.8 GHz, 48 channels, 6 bands
+Camera resolution: 800 TVL (720P)
+Transmission power: adjustable, 25 mW / 100 mW / 200 mW (default 25 mW)
+Power supply voltage: from 3V to 5.2V DC
+Current consumption (at 4.2V): 320 mA (25 mW output), 400 mA (100 mW), 460 mA (200 mW)
+Video system: PAL
+Viewing angle: 150°
+Focal length: 1.2 mm
+Aspect ratio: 4:3
+Power:
+Wire: 28AWG
+Connector: PH1.25
+Size: 18.03 x 16.83 x 16.55 mm
+Weight: 4.4 g
+Frequency, channel, and band table: see in folder pictures/
+
+Camera configuration:
+
+Switching frequency:
+
+Press and hold the button for 5 seconds, the red LED will blink once to enter frequency switching mode.
+Briefly press once to change the frequency from 1 to 8.
+The blue LED blinks once for frequency 1, twice for frequency 2, and so on.
+Switching bands:
+
+Press and hold the button for 5 seconds, the red LED will blink twice to enter band switching mode.
+Briefly press once to change the band from 1 to 6.
+The blue LED blinks once for band 1, twice for band 2, and so on.
+Switching transmission power:
+
+Press and hold the button for 5 seconds, the red LED will blink three times to enter power switching mode.
+Briefly press once to change the transmission power; AF is adjustable.
+The blue LED blinks once to indicate 25 mW, twice for 100 mW, and three times for 200 mW. The higher the power, the greater the transmission range.
+Note: The default transmission power is set to 25 mW due to legal restrictions and power consumption considerations. Please switch as needed.
+Switching transmission mode:
+
+Normal operation mode: The red and blue LEDs are steadily lit.
+Low-power modulation mode (Pitmode): The red LED is lit, and the blue LED is off. In this mode, the transmission range is 1-2 meters.
+Briefly press the button twice to switch modes.
+Note: After setting all parameters, press and hold the button, and the red and blue LEDs will indicate entry into save mode, followed by working mode. Otherwise, the module will not exit the setup state and will not save the configured parameters.
+
+---
