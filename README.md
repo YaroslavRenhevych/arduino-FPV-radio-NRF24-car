@@ -83,28 +83,32 @@ Note: The modules use standard pinout. Do not rely on secondary markings (the pi
 
 Specifications:
 
-Transmission power over +20 dBm, 50Ω, supports seven-channel reception, data rate up to 2 Mbps
-Operating voltage: 2.7 - 3.6V, but control pins are 5V tolerant (i.e., powered by up to 3.6V, but can connect control pins directly to Arduino)
-Multi-frequency points: 125 frequency points
-Supports retransmission of lost packets
-Operating frequency: 2400 - 2524 MHz
-Modulation: GMSK
-Receiver sensitivity: -95 dBm
-Maximum transmission current: 115 mA
-Maximum reception current: 45 mA
-Operating temperature range: industrial standard -45 to +85°C
-PA gain: 20 dB
-LNA gain: 10 dB The module has a standard pinout, allowing it to be connected to Arduino boards that have an NRF24L01P+ module socket or simply to the SPI interface of an Arduino board.
+- Transmission power over +20 dBm, 50Ω, supports seven-channel reception, data rate up to 2 Mbps
+- Operating voltage: 2.7 - 3.6V, but control pins are 5V tolerant (i.e., powered by up to 3.6V, but can connect control pins directly to Arduino)
+- Multi-frequency points: 125 frequency points
+- Supports retransmission of lost packets
+- Operating frequency: 2400 - 2524 MHz
+- Modulation: GMSK
+- Receiver sensitivity: -95 dBm
+- Maximum transmission current: 115 mA
+- Maximum reception current: 45 mA
+- Operating temperature range: industrial standard -45 to +85°C
+- PA gain: 20 dB
+- LNA gain: 10 dB
 
-Pin	Description	Direction
-Pin1	GND	Ground
-Pin2	VCC	Power, 2.7~3.6V
-Pin3	CE	Mode, RX/TX
-Pin4	CSN	SPI chip select
-Pin5	SCK	SPI clock
-Pin6	MOSI	SPI input
-Pin7	MISO	SPI output
-Pin8	IROAM	Interrupt output
+  
+The module has a standard pinout, allowing it to be connected to Arduino boards that have an NRF24L01P+ module socket or simply to the SPI interface of an Arduino board.
+
+Pin	|        | Description     |Direction
+-----------------------------------------
+Pin1|	GND	   | Ground          |
+Pin2|	VCC	   | Power, 2.7~3.6V |
+Pin3|	CE	   | Mode, RX/TX     |input
+Pin4|	CSN	   | SPI chip select |input
+Pin5|	SCK    | SPI clock       |input
+Pin6|	MOSI   | SPI input       |input
+Pin7|	MISO   | SPI output      |output
+Pin8|	IROAM  | Interrupt output|output
 
 Datasheet: https://arduino.ua/docs/nRF24L01P_Product_Specification_1_0.pdf
 
