@@ -22,6 +22,7 @@ Communication technology: radio
 - DC/DC converter XL4015 5A
 - FPV camera Radiolink 800TVL
 - Fan 40x40mm 5V
+- any analog FPV goggles
 - Motor driver L298N
 - 2 x batteries 18650
 - 4 x motors
