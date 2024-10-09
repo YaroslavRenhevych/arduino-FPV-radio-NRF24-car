@@ -40,8 +40,8 @@ Communication technology: radio
 7) power the remote controller by powerbank
 
   
-Max RC working distance: 160 meters
-Max video transmitting distance: 15 meters
+Max RC working distance: 100 meters
+Max video transmitting distance: 100 meters
 
 --------------------------------------------------
 
